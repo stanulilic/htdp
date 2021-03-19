@@ -8,7 +8,7 @@
   (if(> (image-height img) (image-width img))
      "tall"
      (if(< (image-height img) (image-width img))
-     "wide"
+     "wide"(
      "square"))
   )
 
